@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Cycle</title>
+</head>
+<body>
+    
+    <div class="main_wrapper">
+        <div class="sub_wrapper">
+            <div id="box"></div>
+            <div class="input_main_wrapper">
+                <span>
+                    <h4>Enter Starting Hex value</h4>
+                    <div class="input_wrapper">
+                        <input type="text" placeholder="R" id="startR">
+                        <input type="text" placeholder="G" id="startG">
+                        <input type="text" placeholder="B" id="startB">
+                    </div>
+                </span>
+                <span>
+                    <h4>Enter Increment value to be added</h4>
+                    <div class="input_wrapper">
+                        <input type="text" placeholder="R" id="incrementR">
+                        <input type="text" placeholder="G" id="incrementG">
+                        <input type="text" placeholder="B" id="incrementB">
+                    </div>
+                </span>
+            </div>
+            <p id="message">Only Hex value allowed!</p>
+            <button id="btn">START</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
